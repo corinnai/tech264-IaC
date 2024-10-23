@@ -4,6 +4,8 @@
 - [Benefits of IaC?](#benefits-of-iac)
 - [When/where to use IaC](#whenwhere-to-use-iac)
 - [What are the tools available for IaC?](#what-are-the-tools-available-for-iac)
+  - [Configuration managment tools :](#configuration-managment-tools-)
+  - [Orchestration( provision infrastructure)](#orchestration-provision-infrastructure)
 - [What is configuration management (CM)?](#what-is-configuration-management-cm)
 - [What is provisioning of infrastructure? Do CM tools do it?](#what-is-provisioning-of-infrastructure-do-cm-tools-do-it)
 - [What is Ansible and how does it work?](#what-is-ansible-and-how-does-it-work)
@@ -43,12 +45,20 @@ IaC is beneficial in scenarios where:
 - **Multi-Region Deployments**: Consistent setup across different locations.
   
 # What are the tools available for IaC?
+## Configuration managment tools : 
+- **Ansible**: Used for configuration management, application deployment, and task automation.
+  
+- **Puppet**: Automates the management of infrastructure and configuration.
+  
+- **Chef**: Provides a way to define infrastructure as code using recipes and cookbooks.
+  
+## Orchestration( provision infrastructure)
 
 - **Terraform**: An open-source tool for building, changing, and versioning infrastructure efficiently.
-- **Ansible**: Used for configuration management, application deployment, and task automation.
+
 - **CloudFormation**: AWS service that allows you to define and provision infrastructure using templates.
-- **Puppet**: Automates the management of infrastructure and configuration.
-- **Chef**: Provides a way to define infrastructure as code using recipes and cookbooks.
+
+- **Ansible**: can be used as orchestration tool but not primarily design for this 
 
     ![tools](images/4.webp)
 
